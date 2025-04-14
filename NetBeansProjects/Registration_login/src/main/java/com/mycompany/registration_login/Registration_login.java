@@ -46,7 +46,7 @@ public class Registration_login {
     }
    public static boolean checkPasswordCompelexity(String password)
    {
-       if(password.matches("^(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,}$"))
+       if(password.matches("^(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).{8,}$"))//OpenAI.(2025).ChatGPT(GPT-4)[Large language model].  https://chat.openai.com/"
        {
            System.out.println("Password successfully captured");
           return true;
@@ -60,7 +60,7 @@ public class Registration_login {
    }
       public static boolean checkCellPhoneNumber(String phone)
       {
-          if(phone.matches("^(?:\\+27)(6|7|8)[0-9]{8}$"))
+          if(phone.matches("^(?:\\+27)(6|7|8)[0-9]{8}$"))//OpenAI.(2025).ChatGPT(GPT-4)[Large language model].  https://chat.openai.com/"
           {
               System.out.println("Cell phone number successfully added.");
               return true;
